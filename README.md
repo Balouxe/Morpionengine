@@ -9,13 +9,13 @@ The rules for this game can be found here (french) :
 https://adnjeux.wordpress.com/wp-content/uploads/2020/04/morpionception.pdf
 
 Basically, tic-tac-toes inside a big tic-tac-toe.
+Circle starts the game.
 
 
 ## Usage and the Morpionception Interface (MCI)
 
 What I pretentiously call MCI is the protocol I made to communicate with the engine. It is very similar to UCI, the Universal Chess Interface.
 The main difference is how moves are defined.
-Circle starts the game.
 
 The squares inside the big tic-tac-toe board are named X1-Z3 with letters for columns and numbers for rows.
 The squares inside the small tic-tac-toe boards are named A1-C3 with again, letters for columns and numbers for rows.
